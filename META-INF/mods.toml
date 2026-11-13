@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dinowarden"
+version="1.0.4"
+displayName="Dino Warden"
+authors="atomicfire_249"
+description='''Dino Warden.'''
+
+[[dependencies.dinowarden]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dinowarden]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.dinowarden]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"
